@@ -1,0 +1,80 @@
+
+/* Header */
+
+header {
+  
+  /*Centrer et réduire la taille */
+  width : 50% ;
+  margin : auto ;
+}
+
+header h1 {
+ 
+  /* Centrer le texte du header */
+  text-align: center ;
+}
+
+header h1 span:first-letter{
+  /*Modifier le style des premières lettres*/
+  color : white ;
+  font-size : xx-large ;
+}
+
+
+/* Main */
+
+body {
+  font-family : Arial, Helvetica, sans-serif; 
+  
+  /* Mise en place du BackGround */
+  background-image: url("../images/pexels-pixabay-47730.jpg") ;
+  background-position: center  ;
+  background-attachment:  fixed ;
+  background-size: cover;
+}
+
+#reglages {
+  display: block ;
+  height: 30px ;
+  text-align: center ;
+  border-radius:10px;
+  min-width: 220px;
+  
+}
+
+
+#sexe, #capitaine {
+  margin-top : 7px ;
+  box-shadow: 0px 1px 1px 2px  black ;
+  color : black ;
+  text-align: center;
+  border-radius: 20px  ;
+  cursor: pointer;
+  width : 100px
+}
+
+#ok {
+  cursor: pointer;
+}
+
+#imgcap {
+  position: absolute;
+  bottom: -10px ;
+  right:-12px;
+}
+
+/*Footer */
+
+footer {
+  
+  /* Mise en place du logo */
+  background-image: url('https://img.uefa.com/imgml/uefacom/ucl/2021/logos/logo_dark.svg') ;
+  background-repeat : no-repeat ;
+  background-size : auto 90% ;
+  background-position: 2px ; 
+  
+  /* Repositionnement des éléments */
+  padding-left : 50px ;
+}
+
+
