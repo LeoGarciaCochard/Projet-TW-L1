@@ -1,0 +1,35 @@
+
+Groupe 1: César Mignon, Victor Dauchy, Léo Garcia--Cochard
+
+Toutes les questions de 1 à 11 ont été traitées dans leur intégralité. Le cahier des charges a été respecté.
+
+Certaines lignes de code fournies ont été modifiées :
+	Notamment :
+		-Modification de la police d'écriture de la page (choix esthétique)
+		-ligne79 mpc.css, ajout de .defenseur pour que le contour des .defenseur soit de la bonne couleur
+		-Nom des bases de données (pour la question bonus)
+		-Certaines fonctions déjà écrites comme "deselectionneCompo" ou "init"
+
+## En ce qui concerne les questions bonus :
+
+Les deux exemples ont été réalisés :
+
+// Changement de sexe :
+
+*Ajout d'un bouton "Vers Masculin" qui permet de passer de la base de données des femmes (par défaut) à celle des hommes. Une fois changé, le contenu du bouton devient "Vers Féminin" et un clic sur ce dernier provoque de nouveau le changement de base de données et le changement du contenu du bouton.
+
+*Le changement vide la feuille de match, le terrain et le nombre d'effectif.
+
+// Capitaine :
+
+Ajout d'un bouton "Capitaine" à côté de "vers masculin", avec plusieurs conditions :
+
+		-S'il y a au moins un joueur dans le terrain
+		-S'il n'y a pas déjà de capitaine présent
+		
+*Si les conditions sont respectées, un clic sur ce bouton entraînera un changement du curseur, par une icône de brassard de capitaine. À ce moment-là, il n'est plus possible de retirer des joueurs du terrain, et le prochain clic sur un joueur présent sur le terrain lui attribuera une petite icône de brassard en bas à droite de sa photo sur le terrain. Le curseur redeviendra normal et il sera à nouveau possible de supprimer des joueurs du terrain.
+
+*Notez que la suppression du joueur capitaine (par un clic, un changement de formation ou un changement de sexe des joueurs) entraîne la suppression de l'icône et rend possible le choix d'un nouveau capitaine.
+
+
+
